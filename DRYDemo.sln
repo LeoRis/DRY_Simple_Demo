@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUI", "WPFUI\WPFUI.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRYDemoLibrary", "DRYDemoLibrary\DRYDemoLibrary.csproj", "{E6A95FD1-D37B-4FB1-870D-A6DC5C92EC1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRYDemoLibraryTest", "DRYDemoLibraryTest\DRYDemoLibraryTest.csproj", "{8785C3CD-E118-41E0-B0E3-9984ABBD9E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E6A95FD1-D37B-4FB1-870D-A6DC5C92EC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6A95FD1-D37B-4FB1-870D-A6DC5C92EC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6A95FD1-D37B-4FB1-870D-A6DC5C92EC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8785C3CD-E118-41E0-B0E3-9984ABBD9E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8785C3CD-E118-41E0-B0E3-9984ABBD9E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8785C3CD-E118-41E0-B0E3-9984ABBD9E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8785C3CD-E118-41E0-B0E3-9984ABBD9E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
