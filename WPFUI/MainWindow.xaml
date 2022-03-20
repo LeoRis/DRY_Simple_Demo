@@ -16,7 +16,7 @@
                 <TextBlock Text="Last Name: " Margin="5" />
                 <TextBox x:Name="lastName" MinWidth="100" Margin="5"  />
             </StackPanel>
-            <Button x:Name="createEmployeeIdButton" Content="Generate Employee ID" Margin="5" Padding="10" Click="createEmployeeIdButton_Click" />
+            <Button x:Name="createEmployeeIdButton" Content="Generate Employee ID" Margin="5" Padding="10" Click="CreateEmployeeIdButton_Click" />
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Employee ID: " Margin="5" />
                 <TextBlock x:Name="employeeId" Margin="5"  />
