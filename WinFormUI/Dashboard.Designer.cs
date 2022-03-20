@@ -88,7 +88,7 @@
             this.generateEmployeeIdButton.TabIndex = 5;
             this.generateEmployeeIdButton.Text = "Generate Employee ID";
             this.generateEmployeeIdButton.UseVisualStyleBackColor = true;
-            this.generateEmployeeIdButton.Click += new System.EventHandler(this.generateEmployeeIdButton_Click);
+            this.generateEmployeeIdButton.Click += new System.EventHandler(this.GenerateEmployeeIdButton_Click);
             // 
             // employeeIdText
             // 
