@@ -22,7 +22,14 @@ namespace DRYDemoLibrary
             {
                 output = name.Substring(0, numberOfCharacters);
             }
+            else
+            {
+                while (output.Length < 4)
+                {
+                    output += "X";
+                }
 
+            }
             return output;
 
         }
