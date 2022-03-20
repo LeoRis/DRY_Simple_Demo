@@ -10,8 +10,21 @@ namespace DRYDemoLibrary
     {
         public string GenerateEmployeeId(string firstName, string lastName)
         {
-            string employeeId = $@"{ firstName.Substring(0, 4) }{ lastName.Substring(0, 4) }{ DateTime.Now.Millisecond }";
+            string employeeId = $@"{ GetPartOfName(firstName, 4) }{ GetPartOfName(lastName, 4) }{ DateTime.Now.Millisecond }";
             return employeeId;
+        }
+
+        private string GetPartOfName(string name, int numberOfCharacters)
+        {
+            string output = name;
+
+            if (name.Length > numberOfCharacters)
+            {
+                output = name.Substring(0, numberOfCharacters);
+            }
+
+            return output;
+
         }
     }
 }

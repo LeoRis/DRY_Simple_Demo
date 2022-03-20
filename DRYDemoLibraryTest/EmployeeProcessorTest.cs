@@ -12,13 +12,15 @@ namespace DRYDemoLibraryTest
     {
         [Theory]
         [InlineData("John", "Smith", "JohnSmit")]
+        [InlineData("Jos", "Verstappen", "JosVers")]
+        [InlineData("Jos", "Ve", "JosVe")]
         public void GenerateEmployeeId_ShouldCalculate(string firstName, string lastName, string expectedStart)
         {
             // Arrange
             EmployeeProcessor processor = new EmployeeProcessor();
 
             // Act
-            string actualStart = processor.GenerateEmployeeId(firstName, lastName).Substring(0, 8);
+            string actualStart = processor.GenerateEmployeeId(firstName, lastName).Substring(0, expectedStart.Length);
 
             // Assert
             Assert.Equal(expectedStart, actualStart);
